@@ -1,0 +1,11 @@
+# OS generated files #
+######################
+.DS_Store
+
+# App specific
+.redcar
+
+# IntelliJ IDEA
+.idea
+*.iml
+
