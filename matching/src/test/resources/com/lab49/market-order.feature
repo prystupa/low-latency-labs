@@ -19,7 +19,7 @@ Feature: Market Price Matching Rules
       | B      | 2       | 20       | 10,1  | 10,15 | 60       | 6       | F      |
       | C      | 3       | 10       | 9,9   |       |          |         |        |
 
-  Scenario: the market order is parially filled
+  Scenario: the market order is partially filled
     Given that reference price is 10
     And the following orders submitted to the book:
       | Broker | OrderId | Quantity | Price | Price | Quantity | OrderId | Broker |
